@@ -34,7 +34,7 @@ else:
 
 ## Boundary and honesty
 
-- `TRUSTED` means: valid signature, a path to an anchor **you** supplied, all certificates valid at genTime, and (by default) the timeStamping EKU present. It does not assert completeness, authorship, or the truth of the underlying record. Those limits are the same as the MIT core's `TRUST.md`.
+- `TRUSTED` means: valid signature, a path to an anchor **you** supplied, all certificates valid at genTime, and (by default) the timeStamping EKU present. It does not assert completeness, authorship, or the truth of the underlying record. Those limits are the same as the MIT core's [`TRUST.md`](https://github.com/S0tman/irp-capture/blob/main/TRUST.md).
 - Trust-anchor policy is yours. This tool never chooses which authorities to trust for you.
 
 ## License
